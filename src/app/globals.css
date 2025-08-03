@@ -8,6 +8,9 @@
   --toast-font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 @custom-variant dark (&:is(.dark *));

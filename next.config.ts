@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    // agrega todos los dominios externos desde los que cargues imágenes
-    domains: ["m.media-amazon.com", "img.freepik.com",  "i.blogs.es"],
+    domains: ["m.media-amazon.com", "img.freepik.com",  "i.blogs.es", "grupotrato.com", "www.consumer.es", "i0.wp.com"],
   },
 };
 

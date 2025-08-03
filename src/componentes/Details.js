@@ -15,21 +15,20 @@ const features = [
 
 const useCases = [
   {
-    src: "/landscape.jpg",
-    title: "Aerial Photography",
-    txt: "Capture breathtaking landscapes and events with stunning clarity.",
+    src: "https://grupotrato.com/wp-content/uploads/2021/04/volumen-movimiento-de-tierras-grupo-trato.jpg",
+    title: "Cálculo de volúmenes en movimientos de tierra",
+    txt: "Comparación periódica entre modelos para estimar material excavado o rellenado.",
   },
   {
-    src: "/video-thumb.jpg",
-    title: "Cinematography",
-    txt: "Create cinematic masterpieces with smooth, stable footage.",
-    video: "/demo.mp4",
+    src: "https://www.consumer.es/app/uploads/fly-images/460145/agricultura-precision-1200x550-cc.jpg",
+    title: "Agricultura de precisión",
+    txt: "dentificación de microrelieves que afectan encharcamientos.",
   },
   {
-    src: "/survey.jpg",
-    title: "Mapping & Surveying",
-    txt: "Accurately map and survey land with precise GPS and high-resolution imagery.",
-  },
+    src: "https://i0.wp.com/idc.apddrones.com/wp-content/uploads/2023/05/Imagenes-cabecera-y-clusters-blogs.jpg?w=1080&ssl=1",
+    title: "Monitoreo ambiental de zonas protegidas",
+    txt: "Detección de cambios en cobertura vegetal y cuerpos de agua.",
+  }
 ]
 
 export default function Details() {
