@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="space-y-4">
           <h3 className="text-lg font-semibold">MAPTERRA</h3>
           <p className="max-w-xs text-sm text-neutral-400">
-            Datos geoespaciales de precisión centimétrica para proyectos que transforman Latinoamérica.
+            Transformamos datos aéreos en decisiones inteligentes.
           </p>
           <p className="text-xs text-neutral-500">© 2025 MAPTERRA. Todos los derechos reservados.</p>
         </div>

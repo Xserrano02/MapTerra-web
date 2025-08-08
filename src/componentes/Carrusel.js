@@ -15,9 +15,9 @@ import { useRef } from "react"
 const industrias = [
   { Icon: FiCpu,        title: "Ingeniería & BIM", txt: "Modelos topográficos precisos para diseño." },
   { Icon: FiMapPin,     title: "Urbanismo",        txt: "Base cartográfica HD para planificación." },
-  { Icon: FiGlobe,      title: "Medio ambiente",   txt: "Monitoreo de cobertura vegetal y agua." },
+  { Icon: FiGlobe,      title: "Medio ambiente",   txt: "Monitoreo de cobertura vegetal" },
   { Icon: FiLayers,     title: "Minería",          txt: "Cálculo de volúmenes y control de taludes." },
-  { Icon: FiActivity,   title: "Agricultura",      txt: "Análisis multiespectral y curvas de nivel." },
+  { Icon: FiActivity,   title: "Construcción",     txt: "Nube de puntos y curvas de nivel.  " },
   { Icon: FiTrendingUp, title: "Infraestructura",  txt: "Seguimiento de avance y detección de desviaciones." },
 ]
 

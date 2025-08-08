@@ -118,7 +118,7 @@ export default function ContactForm() {
 
         <div className="flex flex-1 flex-col items-center justify-center gap-10">
           <div className="relative aspect-video w-full overflow-hidden rounded-2xl">
-            <Image src="/imagedrone.png" alt="Drone surveying landscape" fill priority className="object-cover opacity-80"/>
+            <Image src="/Drone_campo2.png" alt="Drone surveying landscape" fill priority className="object-cover opacity-80"/>
             <span className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"/>
             <p className="absolute bottom-6 left-6 text-xl font-medium">Datos que inspiran decisiones</p>
           </div>

@@ -6,12 +6,12 @@ const cards = [
   {
     Icon: FaBullseye,
     title: "Misión",
-    txt: "Proporcionar datos geoespaciales de precisión centimétrica mediante drones de vanguardia, habilitando decisiones inteligentes y sostenibles para nuestros clientes.",
+    txt: "Ofrecer servicios especializados de mapeo topográfico y fotogrametría aérea con drones de alta precisión, proporcionando datos geoespaciales confiables que optimizan la planificación, diseño y ejecución de proyectos de ingeniería y desarrollo territorial.",
   },
   {
     Icon: FaEye,
     title: "Visión",
-    txt: "Ser el referente en Latinoamérica en adquisición y análisis geoespacial, impulsando proyectos que transformen la ingeniería, el medio ambiente y la infraestructura con tecnología de última generación.",
+    txt: "Ser la empresa líder en El Salvador en soluciones de mapeo topográfico y fotogrametría con drones, reconocida por su innovación tecnológica, precisión técnica y compromiso con la calidad en cada levantamiento.",
   },
 ]
 
@@ -19,16 +19,16 @@ export default function AboutUs() {
   return (
     <section className="bg-black text-white w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] px-4 py-24">
       <div className="mx-auto max-w-6xl">
-        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-3xl">
+        <div className="relative aspect-[16/9] w-full max-w-4xl md:max-w-5xl mx-auto overflow-hidden rounded-3xl">
           <Image
-            src="/Nosotros.webp"
+            src="/Drone_construccion.png"
             alt="About Us"
             fill
             priority
             className="object-cover"
           />
           <h2 className="absolute bottom-8 left-8 text-5xl font-semibold sm:text-6xl">
-            About&nbsp;Us
+            Conoce MAPTERRA
           </h2>
         </div>
 
