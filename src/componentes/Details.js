@@ -110,7 +110,9 @@ export default function Details() {
               />
             ) : (
               <div className="relative h-48 w-full overflow-hidden rounded-t-xl">
-                <Image src={src} alt={title} fill className="object-cover" />
+                <Image src={src} alt={title} fill className="object-cover"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 384px"
+                />
               </div>
             )}
 

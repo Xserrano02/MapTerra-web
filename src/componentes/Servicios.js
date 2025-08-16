@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-/* frases que rotan */
 const phrases = [
   "Levantamientos topográficos de alta precisión",
   "Nube de puntos 3D para proyectos de ingeniería",
@@ -13,37 +12,36 @@ const phrases = [
   "Detección de desviaciones en tiempo real",
 ];
 
-/* tarjetas */
 const cards = [
   {
     src: "/Levantamientos_topograficos.png",
     title: "Levantamientos topográficos",
-    txt: "Modelos digitales del terreno con precisión centimétrica.",
+    txt: "Modelos digitales del terreno con precisión centimétrica."
   },
   {
     src: "/Nube_de_puntos.png",
     title: "Nube de puntos 3D",
-    txt: "Millones de puntos georreferenciados para ingeniería y obra civil.",
+    txt: "Millones de puntos georreferenciados para ingeniería y obra civil."
   },
   {
     src: "/curvas_nivel.png",
     title: "Curvas de nivel",
-    txt: "Intervalos precisos para diseños de drenaje e infraestructura.",
+    txt: "Intervalos precisos para diseños de drenaje e infraestructura."
   },
   {
     src: "/Ortomapas_drone.png",
     title: "Ortofotomapas HD",
-    txt: "Base cartográfica para monitoreo y planificación territorial.",
+    txt: "Base cartográfica para monitoreo y planificación territorial."
   },
   {
     src: "/Mapeo_catastral.png",
     title: "Cartografía catastral",
-    txt: "Actualiza catastros y delimita propiedades con exactitud.",
+    txt: "Actualiza catastros y delimita propiedades con exactitud."
   },
   {
     src: "/Proceso_en_drone.png",
     title: "Detección de desviaciones",
-    txt: "Compara progreso real vs. cronograma en tiempo real.",
+    txt: "Compara progreso real vs. cronograma en tiempo real."
   },
 ];
 
@@ -56,6 +54,8 @@ export default function Servicios() {
     }, 4800);
     return () => clearInterval(id);
   }, []);
+
+  const ABOVE_THE_FOLD = 3;
 
   return (
     <section className="bg-black text-white px-4 py-24">
@@ -88,6 +88,8 @@ export default function Servicios() {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 33vw"
+                priority={i < ABOVE_THE_FOLD}
+                fetchPriority={i < ABOVE_THE_FOLD ? "high" : "auto"}
               />
             </div>
             <div className="p-5">

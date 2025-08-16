@@ -1,4 +1,3 @@
-// src/componentes/Industrias.js
 "use client"
 
 import {
