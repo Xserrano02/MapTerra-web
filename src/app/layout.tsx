@@ -5,7 +5,7 @@ import Script from "next/script";
 import FbPixelListener from "./fb-pixel-listener";
 import MarketingBootstrap from "../lib/marketing-bootstrap";
 import EngagementSignals from "../componentes/EngagementSignals";
-
+import { TbDrone } from "react-icons/tb";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
@@ -48,7 +48,7 @@ export const metadata = {
     site: "@mapterra",
     creator: "@mapterra",
   },
-  icons: { icon: "/favicon.ico" },
+  icons: { icon: "/MAPTERRRA-05.PNG" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
