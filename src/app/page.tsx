@@ -27,8 +27,8 @@ export default function Home() {
       <AnimatedSection id="footer"     delay={0.35}><Footer/></AnimatedSection>
 
       <WhatsAppFloat
-        phone="+503 7000 1234"
-        message="Hola, necesito más información 🙂"
+        phone="+503 76944887"
+        message="Hola, Quiero hablarte de mi proyecto 🙂"
         label="Abrir chat de WhatsApp"
       />
     </>
