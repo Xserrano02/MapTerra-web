@@ -14,32 +14,32 @@ const phrases = [
 
 const cards = [
   {
-    src: "/Levantamientos_topograficos.png",
+    src: "/Levantamientos_topograficos.webp",
     title: "Levantamientos topográficos",
     txt: "Modelos digitales del terreno con precisión centimétrica."
   },
   {
-    src: "/Nube_de_puntos.png",
+    src: "/Nube_de_puntos.webp",
     title: "Nube de puntos 3D",
     txt: "Millones de puntos georreferenciados para ingeniería y obra civil."
   },
   {
-    src: "/Curvas_nivel.png",
+    src: "/Curvas_nivel.webp",
     title: "Curvas de nivel",
     txt: "Intervalos precisos para diseños de drenaje e infraestructura."
   },
   {
-    src: "/Ortomapas_drone.png",
+    src: "/Ortomapas_drone.webp",
     title: "Ortofotomapas HD",
     txt: "Base cartográfica para monitoreo y planificación territorial."
   },
   {
-    src: "/Mapeo_catastral.png",
+    src: "/Mapeo_catastral.webp",
     title: "Cartografía catastral",
     txt: "Actualiza catastros y delimita propiedades con exactitud."
   },
   {
-    src: "/Proceso_en_drone.png",
+    src: "/Proceso_en_drone.webp",
     title: "Detección de desviaciones",
     txt: "Compara progreso real vs. cronograma en tiempo real."
   },

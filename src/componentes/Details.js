@@ -17,32 +17,32 @@ const YT_ID = "mvKmmXewNIo";
 
 const useCases = [
   {
-    src: "/Infras-Ocultas.png",
+    src: "/Infras-Ocultas.webp",
     title: "Inspección de infraestructuras ocultas por vegetación",
     txt: "El L2 penetra vegetación densa y puede revelar estructuras ocultas que otros sensores no detectan fácilmente",
   },
   {
-    src: "/Estudios-forestales-drone.png",
+    src: "/Estudios-forestales-drone.webp",
     title: "Estudios forestales avanzados",
     txt: "Ideal para instituciones ambientales o proyectos REDD+ de compensación de carbono",
   },
   {
-    src: "/Drone_Mapeo.png",
+    src: "/Drone_Mapeo.webp",
     title: "Mapeo de zonas peligrosas o inaccesibles",
     txt: "Permite obtener modelos 3D sin exponer a personal a riesgos físicos",
   },
   {
-    src: "/Drone-evaluacion.png",
+    src: "/Drone-evaluacion.webp",
     title: "Reconstrucción de escenas de desastre",
     txt: "Después de terremotos, huracanes o deslaves, el L2 puede generar un modelo 3D detallado para evaluar daños y planificar reconstrucción.",
   },
   {
-    src: "/Inspeccion-area.png",
+    src: "/Inspeccion-area.webp",
     title: "Control de avance de obras civiles (obra gris)",
     txt: "Ideal para constructoras, ingenieros supervisores y contratistas del estado.",
   },
   {
-    src: "/Drone_Agricultura.png",
+    src: "/Drone_Agricultura.webp",
     title: "Gestión avanzada de tierras agrícolas",
     txt: "Medición de microrelieves para diseñar sistemas de riego por gravedad, análisis de escurrimiento de agua, nivelación de parcelas.",
   }

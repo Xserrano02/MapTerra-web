@@ -21,7 +21,7 @@ export default function AboutUs() {
       <div className="mx-auto max-w-6xl">
         <div className="relative aspect-[16/9] w-full max-w-4xl md:max-w-5xl mx-auto overflow-hidden rounded-3xl">
           <Image
-            src="/Drone_construccion.png"
+            src="/Drone_construccion.webp"
             alt="About Us"
             fill
             priority

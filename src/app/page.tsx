@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Menu /> 
-      <AnimatedSection id="inicio"     delay={0.00}><BannerInit/></AnimatedSection>
+      <BannerInit/>
       <AnimatedSection delay={0.10}><Carrusel/></AnimatedSection>
       <AnimatedSection id="servicios"  delay={0.10}><Servicios/></AnimatedSection>
       <AnimatedSection id="alcance"    delay={0.20}><Details/></AnimatedSection>
