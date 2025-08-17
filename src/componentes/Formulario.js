@@ -51,6 +51,16 @@ export default function ContactForm() {
   const submit = e => {
     e.preventDefault()
 
+    // --- META PIXEL: el usuario intentó enviar el formulario
+    try {
+      if (typeof window !== "undefined" && window.fbq) {
+        window.fbq("trackCustom", "FormAttempt", {
+          form: "contacto",
+          service: form.service || undefined,
+        })
+      }
+    } catch {}
+
     emailjs
       .send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
@@ -58,6 +68,17 @@ export default function ContactForm() {
         form
       )
       .then(() => {
+        // --- META PIXEL: envío exitoso => cuenta como Lead
+        try {
+          if (typeof window !== "undefined" && window.fbq) {
+            window.fbq("track", "Lead", {
+              content_name: "contact_form",
+              content_category: "lead",
+              service: form.service || undefined,
+            })
+          }
+        } catch {}
+
         toast.success("Mensaje enviado correctamente.", {
           description: "¡Gracias por contactar a MAPTERRA! Responderemos pronto.",
         })
@@ -65,6 +86,17 @@ export default function ContactForm() {
       })
       .catch(err => {
         console.error(err)
+
+        // --- META PIXEL: error al enviar (opcional pero útil)
+        try {
+          if (typeof window !== "undefined" && window.fbq) {
+            window.fbq("trackCustom", "FormError", {
+              form: "contacto",
+              service: form.service || undefined,
+            })
+          }
+        } catch {}
+
         toast.error("No se pudo enviar el mensaje.")
       })
   }
