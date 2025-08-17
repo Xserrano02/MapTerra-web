@@ -22,15 +22,10 @@ export default function AboutUs() {
         <div className="relative aspect-[16/9] w-full max-w-4xl md:max-w-5xl mx-auto overflow-hidden rounded-3xl">
           <Image
             src="/Drone_construccion.webp"
-            alt="Conoce MAPTERRA"
+            alt="About Us"
             fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 896px, 1024px"
-            quality={60}
             priority
-            placeholder="blur"
-            blurDataURL="data:image/webp;base64,UklGRiIAAABXRUJQVlA4ICAAAADwAQCdASoIAAQAAAkA0JaQAA=="
-            fetchPriority="high"
+            className="object-cover"
           />
           <h2 className="absolute bottom-8 left-8 text-5xl font-semibold sm:text-6xl">
             Conoce MAPTERRA
