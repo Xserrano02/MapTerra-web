@@ -49,7 +49,7 @@ export const metadata = {
     site: "@mapterra",
     creator: "@mapterra",
   },
-  icons: { icon: "/MAPTERRRA-05.PNG" },
+  icons: { icon: "/MAPTERRA-05.PNG" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -9,11 +9,7 @@ export default function FbPixelListener() {
 
   useEffect(() => {
     if (typeof window === 'undefined' || !window.fbq) return;
-
-    if (first.current) {
-      first.current = false;
-      return;
-    }
+    if (first.current) { first.current = false; return; }
     window.fbq('track', 'PageView');
   }, [pathname, searchParams]);
 

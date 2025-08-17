@@ -24,7 +24,7 @@ const cards = [
     txt: "Millones de puntos georreferenciados para ingeniería y obra civil."
   },
   {
-    src: "/curvas_nivel.png",
+    src: "/Curvas_nivel.png",
     title: "Curvas de nivel",
     txt: "Intervalos precisos para diseños de drenaje e infraestructura."
   },

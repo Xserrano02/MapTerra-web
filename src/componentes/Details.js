@@ -27,7 +27,7 @@ const useCases = [
     txt: "Ideal para instituciones ambientales o proyectos REDD+ de compensación de carbono",
   },
   {
-    src: "/Drone_mapeo.png",
+    src: "/Drone_Mapeo.png",
     title: "Mapeo de zonas peligrosas o inaccesibles",
     txt: "Permite obtener modelos 3D sin exponer a personal a riesgos físicos",
   },
@@ -42,7 +42,7 @@ const useCases = [
     txt: "Ideal para constructoras, ingenieros supervisores y contratistas del estado.",
   },
   {
-    src: "/Drone_agricultura.png",
+    src: "/Drone_Agricultura.png",
     title: "Gestión avanzada de tierras agrícolas",
     txt: "Medición de microrelieves para diseñar sistemas de riego por gravedad, análisis de escurrimiento de agua, nivelación de parcelas.",
   }
