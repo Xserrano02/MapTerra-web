@@ -81,17 +81,21 @@ export default function Servicios() {
             key={i}
             className="overflow-hidden rounded-lg bg-neutral-900 shadow-inner transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg"
           >
-            <div className="relative h-40 w-full">
-              <Image
-                src={src}
-                alt={title}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 50vw, 33vw"
-                priority={i < ABOVE_THE_FOLD}
-                fetchPriority={i < ABOVE_THE_FOLD ? "high" : "auto"}
-              />
-            </div>
+          <div className="relative h-40 w-full">
+            <Image
+              src={src}
+              alt={title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 340px"
+              quality={60}
+              priority={i < ABOVE_THE_FOLD}
+              fetchPriority={i < ABOVE_THE_FOLD ? "high" : "auto"}
+              placeholder="blur"
+              blurDataURL="data:image/webp;base64,UklGRiIAAABXRUJQVlA4ICAAAADwAQCdASoIAAQAAAkA0JaQAA==" 
+            />
+          </div>
+
             <div className="p-5">
               <h3 className="mb-2 text-lg font-semibold">{title}</h3>
               <p className="text-sm text-gray-400">{txt}</p>

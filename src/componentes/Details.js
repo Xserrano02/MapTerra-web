@@ -52,17 +52,17 @@ export default function Details() {
   return (
     <section className="mx-auto max-w-6xl px-4 py-20">
       <div className="grid gap-10 md:grid-cols-2">
-<div className="relative overflow-hidden rounded-xl bg-black aspect-video">
-  <iframe
-    src={`https://www.youtube-nocookie.com/embed/${YT_ID}?autoplay=1&mute=1&loop=1&playlist=${YT_ID}&controls=0&rel=0&modestbranding=1&playsinline=1`}
-    title="DJI Zenmuse L2 Overview"
-    allow="autoplay; encrypted-media; picture-in-picture"
-    referrerPolicy="no-referrer-when-downgrade"
-    allowFullScreen
-    loading="lazy"
-    className="absolute inset-0 h-full w-full"
-  />
-</div>
+        <div className="relative overflow-hidden rounded-xl bg-black aspect-video">
+          <iframe
+            src={`https://www.youtube-nocookie.com/embed/${YT_ID}?autoplay=1&mute=1&loop=1&playlist=${YT_ID}&controls=0&rel=0&modestbranding=1&playsinline=1`}
+            title="DJI Zenmuse L2 Overview"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+            loading="lazy"
+            className="absolute inset-0 h-full w-full"
+          />
+        </div>
 
 
         <div className="flex flex-col justify-center space-y-6">
@@ -110,8 +110,13 @@ export default function Details() {
               />
             ) : (
               <div className="relative h-48 w-full overflow-hidden rounded-t-xl">
-                <Image src={src} alt={title} fill className="object-cover"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 384px"
+                <Image
+                  src={src}
+                  alt={title}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 384px"
+                  quality={60}
                 />
               </div>
             )}
