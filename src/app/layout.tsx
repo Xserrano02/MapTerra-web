@@ -6,6 +6,7 @@ import FbPixelListener from "./fb-pixel-listener";
 import MarketingBootstrap from "../lib/marketing-bootstrap";
 import EngagementSignals from "../componentes/EngagementSignals";
 import { TbDrone } from "react-icons/tb";
+
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
@@ -100,6 +101,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 s.parentNode.insertBefore(t,s)}(window, document,'script',
                 'https://connect.facebook.net/en_US/fbevents.js');
                 fbq('init', '${pixelId}');
+                fbq('track', 'PageView');
               `}
             </Script>
 
